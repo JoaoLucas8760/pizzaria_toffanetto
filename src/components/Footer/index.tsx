@@ -11,7 +11,7 @@ export const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <em>Éverton Toffanetto</em>
+            <em>JL Dev</em>
           </a>
         </S.ContainerFooter>
       </S.Footer>

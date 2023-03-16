@@ -3,11 +3,10 @@
   "builds": [
     {
       "src": "next.config.js",
-      "use": "@vercel/node@14.17.5"
+      "use": "@vercel/node"
     }
   ],
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/.*", "dest": "/index.html" }
-  ]
+  "engines": {
+    "node": "14.x"
+  }
 }
